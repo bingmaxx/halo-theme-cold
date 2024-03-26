@@ -1,0 +1,14 @@
+apiVersion: theme.halo.run/v1alpha1
+kind: Theme
+metadata:
+  name: halo-theme-cold
+spec:
+  displayName: Cold Theme
+  author:
+    name: bingmax
+  description: Cold theme for Halo
+  logo: https://halo.run/logo
+  settingName: "halo-theme-cold-setting"
+  configMapName: "halo-theme-cold-configMap"
+  version: 0.0.1
+  require: 2.0.0

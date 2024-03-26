@@ -1,0 +1,14 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: halo-theme-cold-setting
+spec:
+  forms:
+    - group: header
+      label: 页头
+      formSchema:
+
+        - $formkit: text
+          name: title
+          label: 标题
+          help: 如果不设置，将使用站点设置的标题

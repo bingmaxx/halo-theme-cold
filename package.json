@@ -1,6 +1,5 @@
 {
   "name": "halo-theme-cold",
-  "version": "0.0.1",
   "description": "Cold theme for Halo",
   "main": "index.js",
   "scripts": {
