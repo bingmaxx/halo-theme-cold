@@ -3,7 +3,8 @@
   "description": "Cold theme for Halo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite build --watch",
+    "build": "tsc && vite build"
   },
   "keywords": [
     "halo",
